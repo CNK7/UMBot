@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "webhooks/bepusdt_callback.py",
+      "use": "@vercel/python"
+    },
+    {
+      "src": "webhooks/member_callback.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/webhook/bepusdt",
+      "dest": "webhooks/bepusdt_callback.py"
+    },
+    {
+      "src": "/webhook/umpay",
+      "dest": "webhooks/member_callback.py"
+    },
+    {
+      "src": "/webhook/bepusdt-member",
+      "dest": "webhooks/member_callback.py"
+    },
+    {
+      "src": "/api/member/stats",
+      "dest": "webhooks/member_callback.py"
+    },
+    {
+      "src": "/health",
+      "dest": "webhooks/bepusdt_callback.py"
+    },
+    {
+      "src": "/health-member",
+      "dest": "webhooks/member_callback.py"
+    }
+  ],
+  "env": {
+    "TELEGRAM_TOKEN": "@telegram_token",
+    "BEPUSDT_API_URL": "@bepusdt_api_url",
+    "BEPUSDT_APP_ID": "@bepusdt_app_id",
+    "BEPUSDT_APP_SECRET": "@bepusdt_app_secret",
+    "BEPUSDT_NOTIFY_URL": "@bepusdt_notify_url",
+    "UMPAY_API_URL": "@umpay_api_url",
+    "UMPAY_APP_ID": "@umpay_app_id",
+    "UMPAY_APP_SECRET": "@umpay_app_secret",
+    "UMPAY_NOTIFY_URL": "@umpay_notify_url"
+  }
+}

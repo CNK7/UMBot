@@ -1,0 +1,7 @@
+python-telegram-bot==21.0.1
+Flask==3.0.3
+requests==2.31.0
+tronpy==0.6.1
+python-dotenv==1.0.0
+hashlib2==1.0.1
+Flask==2.3.3
