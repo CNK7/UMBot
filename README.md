@@ -1,4 +1,4 @@
-# 🤖 UMBot - 智能电商机器人
+# 🤖 UMBot - 智能电商机器人【调试开发中】
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Telegram Bot API](https://img.shields.io/badge/Telegram%20Bot%20API-Latest-blue.svg)](https://core.telegram.org/bots/api)
