@@ -284,7 +284,7 @@ docker run -d --name umbot --env-file .env umbot
 
 ## 📞 联系我们
 
-- 📧 **邮箱**: support@umbot.com
+- 📧 **邮箱**: kf@umso.cc
 - 💬 **Telegram**: [@UMBotSupport](https://t.me/UMSOBot)
 - 🐛 **问题反馈**: [GitHub Issues](https://github.com/CNK7/umbot/issues)
 
