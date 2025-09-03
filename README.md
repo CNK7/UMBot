@@ -285,8 +285,8 @@ docker run -d --name umbot --env-file .env umbot
 ## 📞 联系我们
 
 - 📧 **邮箱**: support@umbot.com
-- 💬 **Telegram**: [@UMBotSupport](https://t.me/UMBotSupport)
-- 🐛 **问题反馈**: [GitHub Issues](https://github.com/your-username/umbot/issues)
+- 💬 **Telegram**: [@UMBotSupport](https://t.me/UMSOBot)
+- 🐛 **问题反馈**: [GitHub Issues](https://github.com/CNK7/umbot/issues)
 
 ## 🙏 致谢
 
@@ -294,7 +294,6 @@ docker run -d --name umbot --env-file .env umbot
 
 - [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) - Telegram Bot API 封装
 - [Vercel](https://vercel.com/) - 无服务器部署平台
-- [UMPay](https://umpay.com/) - 加密货币支付解决方案
 - [BEpusdt](https://bepusdt.com/) - 多链 USDT 支付服务
 
 ---
@@ -303,6 +302,6 @@ docker run -d --name umbot --env-file .env umbot
 
 **🌟 如果这个项目对你有帮助，请给我们一个 Star！🌟**
 
-[⭐ Star 项目](https://github.com/your-username/umbot) | [🐛 报告问题](https://github.com/your-username/umbot/issues) | [💡 功能建议](https://github.com/your-username/umbot/issues/new)
+[⭐ Star 项目](https://github.com/CNK7/umbot) | [🐛 报告问题](https://github.com/CNK7/umbot/issues) | [💡 功能建议](https://github.com/CNK7/umbot/issues/new)
 
 </div>
